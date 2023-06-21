@@ -45,7 +45,9 @@ function Contact() {
         <div className={styles.checkbox}>
           <input type="checkbox" id="accept" />
           <label htmlFor="accept">
-            I do accept the <a href="">Terms and Conditions</a> of your site
+            I do accept the{" "}
+            <a href="https://github.com/9josky/app-b">Terms and Conditions</a>{" "}
+            of your site
           </label>
         </div>
         <div className={styles.button}>

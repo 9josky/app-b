@@ -39,7 +39,7 @@ function Info({
   );
 }
 
-function Data({ forData2, label2, color, fontSize, bg, width }) {
+function Data({ forData2, label2, color, width }) {
   const [value, setName] = useState("");
   return (
     <>
